@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      /* box-sizing: border-box; */
+    }
+
+    .container {
+      max-width: 900px;
+      /* margin: 0 auto; */
+      height: 470px;
+      display: flex;
+      flex-flow: column wrap; /* Shorthand – you could use ‘flex-direction: column’ and ‘flex-wrap: wrap’ instead */
+      /* justify-content: flex-start;
+      align-items: flex-start; */
+    }
+
+    .item {
+      background-color: orange;
+      height: 150px;
+      width: 31%;
+      margin: 1%;
+      padding: 10px;
+    }
+
+    .item:nth-child(2) {
+      background-color: pink;
+      height: 250px;
+    }
+
+    .item:nth-child(3) {
+      height: 190px;
+    }
+
+    .item:nth-child(4) {
+      background-color: aqua;
+      height: 220px;
+    }
+  </style>
+  <body>
+    <div class="ccc">
+      <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+      </div>
+    </div>
+  </body>
+</html>
